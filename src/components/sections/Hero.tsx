@@ -155,7 +155,7 @@ const Hero = () => {
           {/* Modern Social Links */}
           <div className="flex justify-center space-x-6 mb-16 animate-fade-in-up">
             {[
-              { icon: Github, href: "https://github.com/zeehaan", color: "hover:text-white" },
+              { icon: Github, href: "https://github.com/zeehaancode21", color: "hover:text-white" },
               { icon: Linkedin, href: "https://www.linkedin.com/in/mohammed-zeeshaan-424741239", color: "hover:text-blue-400" },
               { icon: Mail, href: "mailto:zeeshaanm10114@gmail.com", color: "hover:text-cyan-400" },
               { icon: MessageCircleDashed, href: "https://wa.me/919379151845", color: "hover:text-cyan-400" }

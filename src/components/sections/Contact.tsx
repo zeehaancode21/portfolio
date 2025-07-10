@@ -75,8 +75,8 @@ const Contact = () => {
     {
       icon: Github,
       title: "GitHub",
-      handle: "zeehaan",
-      link:"https://github.com/zeehaan",
+      handle: "zeehaancode21",
+      link:"https://github.com/zeehaancode21",
       color: "hover:text-gray-900"
     },
     {
