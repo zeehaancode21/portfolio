@@ -67,7 +67,7 @@ const Contact = () => {
   const socialLinks = [
     {
       icon: MessageCircleDashed, 
-      title: "MessageCircleDashed",
+      title: "WhatsApp",
       handle: "+91 9379151845",
       link: "https://wa.me/919379151845",
       color: "hover:text-gray-900"
