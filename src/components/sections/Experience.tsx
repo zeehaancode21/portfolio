@@ -8,7 +8,7 @@ const Experience = () => {
       title: "Java Backend Developer",
       company: "Virtuele",
       period: "July 2022 – June 2025",
-      location: "Remote",
+      location: "On-Site",
       type: "Full-time",
       description: "Leading backend development initiatives and driving scalable solutions for enterprise applications.",
       responsibilities: [
