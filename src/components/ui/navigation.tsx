@@ -69,12 +69,12 @@ const Navigation = () => {
                 {item.label}
               </button>
             ))}
-            <a href="/Mohammed-Zeeshan-CV.pdf" download>
-  <Button size="sm" className="tech-gradient shadow-glow">
-    <Download className="w-4 h-4 mr-2" />
-    Resume
-  </Button>
-</a>
+           <a href="src/assets/Mohammed-Zeeshan-CV.pdf" download="Mohammed-Zeeshan-CV.pdf">
+              <Button size="sm" className="tech-gradient shadow-glow">
+                <Download className="w-4 h-4 mr-2" />
+                Resume
+              </Button>
+            </a>
 
           </div>
 
