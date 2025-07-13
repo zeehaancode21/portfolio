@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Menu, X, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import resumePDF from "@/assets/Mohammed-Zeeshan-CV.pdf";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -69,12 +70,9 @@ const Navigation = () => {
                 {item.label}
               </button>
             ))}
-           <a href="src/assets/Mohammed-Zeeshan-CV.pdf" download="Mohammed-Zeeshan-CV.pdf">
-              <Button size="sm" className="tech-gradient shadow-glow">
-                <Download className="w-4 h-4 mr-2" />
-                Resume
-              </Button>
-            </a>
+           <a href={resumePDF} download="Mohammed-Zeeshan-Resume.pdf">
+  <Button>Download Resume</Button>
+</a>
 
           </div>
 
