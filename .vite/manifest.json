@@ -1,0 +1,18 @@
+{
+  "index.html": {
+    "file": "assets/index-CeSomlHH.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "css": [
+      "assets/index-sEyG_a21.css"
+    ],
+    "assets": [
+      "assets/profile-nKvLmYRP.png"
+    ]
+  },
+  "src/assets/profile.png": {
+    "file": "assets/profile-nKvLmYRP.png",
+    "src": "src/assets/profile.png"
+  }
+}
