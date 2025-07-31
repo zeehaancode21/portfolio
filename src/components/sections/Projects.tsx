@@ -155,32 +155,34 @@ const Projects = () => {
             </Card>
           </div>
 
-          {/* Additional Projects Section
+          {/* Additional Projects Section */}
           <div className="mt-16 text-center animate-fadeInUp">
             <Card className="p-8 bg-gradient-to-br from-purple-500 to-pink-500 shadow-glow">
               <CardContent className="p-0">
                 <h3 className="text-3xl font-bold text-white mb-4">More Projects Coming Soon</h3>
                 <p className="text-white/80 text-lg mb-6 max-w-2xl mx-auto">
-                  I'm currently working on several exciting backend development projects that showcase 
+                  I'm currently working on several exciting backend development projects that showcase
                   modern Java technologies and architectural patterns. Stay tuned for updates!
                 </p>
                 <div className="flex flex-wrap justify-center gap-3">
-                  <Badge variant="secondary" className="bg-white/20 text-white border-white/30">
-                    Microservices Architecture
+                  <Badge variant="secondary" className="bg-white/20 text-white border-white/30 pointer-events-none">
+                    This Portfolio
                   </Badge>
-                  <Badge variant="secondary" className="bg-white/20 text-white border-white/30">
-                    Spring Boot Applications
-                  </Badge>
-                  <Badge variant="secondary" className="bg-white/20 text-white border-white/30">
+                  <a href="https://zeehaancode21.github.io/gym/" target="_blank" rel="noopener noreferrer">
+                    <Badge variant="secondary" className="bg-white/20 text-white border-white/30">
+                      Gym Application
+                    </Badge>
+                  </a>
+                  {/* <Badge variant="secondary" className="bg-white/20 text-white border-white/30">
                     Database Optimization
                   </Badge>
                   <Badge variant="secondary" className="bg-white/20 text-white border-white/30">
                     API Development
-                  </Badge>
+                  </Badge> */}
                 </div>
               </CardContent>
             </Card>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

@@ -9,7 +9,7 @@ const Education = () => {
       institution: "Maharaja Institute of Technology",
       location: "Mysore, India",
       year: "2021",
-      percentage: "60.06%",
+      percentage: "6.06 CGPA",
       description: "Specialized in structural engineering and gained strong analytical and problem-solving skills that translate well to software architecture.",
       highlights: [
         "Strong foundation in mathematical modeling",
