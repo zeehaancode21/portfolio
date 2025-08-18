@@ -45,7 +45,7 @@ const Hero = () => {
           <div className="mb-16 animate-float-in">
             <div className="relative inline-block group">
               {/* Glassmorphism profile container */}
-              <div className="relative w-72 h-72 mx-auto">
+              <div className="relative w-72 h-72 mx-auto" style={{ top: "86px" }}>
                 {/* Outer glow ring */}
                 <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-400 via-purple-500 to-cyan-400 p-1 animate-spin-slow shadow-2xl">
                   <div className="w-full h-full rounded-full bg-black/50 backdrop-blur-xl border border-white/10"></div>
