@@ -124,7 +124,7 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent>
   <form 
-    action="https://formspree.io/f/mgvyjbgd" 
+    action="https://formspree.io/f/xoeaopwo" 
     method="POST" 
     className="space-y-6"
   >
